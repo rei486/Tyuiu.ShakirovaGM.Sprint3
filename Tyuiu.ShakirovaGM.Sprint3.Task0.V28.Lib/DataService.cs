@@ -11,7 +11,7 @@ namespace Tyuiu.ShakirovaGM.Sprint3.Task0.V28.Lib
             {
                 MultiplySeries *= ((Math.Pow(value,3)*i)+2);
             }
-            return MultiplySeries;
+            return Math.Round(MultiplySeries,3);
         }
     }
 }
