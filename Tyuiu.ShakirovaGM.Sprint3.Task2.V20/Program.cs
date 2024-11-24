@@ -1,5 +1,5 @@
-﻿using Tyuiu.ShakirovaGM.Sprint3.Task1.V16.Lib;
-namespace Tyuiu.ShakirovaGM.Sprint3.Task1.V16
+﻿using Tyuiu.ShakirovaGM.Sprint3.Task2.V20.Lib;
+namespace Tyuiu.ShakirovaGM.Sprint3.Task2.V20
 {
     internal class Program
     {
@@ -11,14 +11,14 @@ namespace Tyuiu.ShakirovaGM.Sprint3.Task1.V16
             //Длинна строки 75 символов
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
-            Console.WriteLine("* Тема: Оператор цикла while                                              *");
-            Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #16                                                             *");
+            Console.WriteLine("* Тема: Оператор цикла do-while                                           *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #20                                                             *");
             Console.WriteLine("* Выполнил: Шакирова Гузель Мансуровна | РППб-24-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу используя цикл while, которая вычисляет сумму ряда   *");
-            Console.WriteLine("* по формуле, при х=0,7                                                   *");
+            Console.WriteLine("* Написать программу используя цикл do...while, которая вычисляет         *");
+            Console.WriteLine("* произведение ряда по формуле, при х=1                                   *");
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
@@ -27,11 +27,11 @@ namespace Tyuiu.ShakirovaGM.Sprint3.Task1.V16
 
 
 
-            double x = 0.7;
+            int x = 1;
 
             int startV = 1;
 
-            int stopV = 15;
+            int stopV = 6;
 
 
             Console.WriteLine("Переменная X: " + x);
@@ -42,7 +42,7 @@ namespace Tyuiu.ShakirovaGM.Sprint3.Task1.V16
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Сумму ряда = " + ds.GetSumSeries(x, startV, stopV));
+            Console.WriteLine("Произведение ряда = " + ds.GetMultiplySeries(x, startV, stopV));
 
             Console.ReadLine();
         }
