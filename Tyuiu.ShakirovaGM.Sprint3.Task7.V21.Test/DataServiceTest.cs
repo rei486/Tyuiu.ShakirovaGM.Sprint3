@@ -22,7 +22,7 @@ namespace Tyuiu.ShakirovaGM.Sprint3.Task7.V21.Test
             wait[2] = 17.01;
             wait[3] = 12.35;
             wait[4] = 7.51;
-            wait[5] = 0;
+            wait[5] = 0.0;
             wait[6] = 1.62;
             wait[7] = -7.03;
             wait[8] =-12.99;
